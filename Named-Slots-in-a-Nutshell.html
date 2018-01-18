@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learn vuejs</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.css">
+
+</head>
+<body>
+
+<div id="root" class="container">
+
+    <modal>
+
+        <template slot="header">My title</template>
+
+        This is text
+
+        <template slot="footer">
+
+            <a href="#" class="button is-primary">Save changes</a>
+            <a href="#" class="button">Cancel</a>
+
+        </template>
+
+    </modal>
+
+</div>
+
+<script src="https://unpkg.com/vue@2.5.13/dist/vue.js"></script>
+<script src="Named-Slots-in-a-Nutshell.js"></script>
+
+</body>
+</html>

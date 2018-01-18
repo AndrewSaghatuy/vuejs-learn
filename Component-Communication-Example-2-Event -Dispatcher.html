@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learn vuejs</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.css">
+
+</head>
+<body>
+
+<div id="root" class="container">
+
+    <coupon @applied="onCouponApplied"></coupon>
+
+    <h1 v-if="couponApplied">You used a coupon!OK!</h1>
+
+</div>
+
+<script src="https://unpkg.com/vue@2.5.13/dist/vue.js"></script>
+<script src="Component-Communication-Example-1-Custom-Events.js"></script>
+
+</body>
+</html>
