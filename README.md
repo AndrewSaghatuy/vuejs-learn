@@ -1,2 +1,2 @@
-# vuejs-learn
-Learning vue js framework
+# vuejs-learning
+Learning the vue.js framework
